@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Documentation - GMT - GMT — The Generic Mapping Tools</title>
+<meta name="description" content="Redmine" />
+<meta name="keywords" content="issue,bug,tracker" />
+<meta content="authenticity_token" name="csrf-param" />
+<meta content="VOM+CmuKMQdWw/eXnZY8OsL8qwXd8T/ayxU0899M6IM=" name="csrf-token" />
+<link rel='shortcut icon' href='/favicon.ico?1380619002' />
+<link href="/stylesheets/jquery/jquery-ui-1.9.2.css?1379755856" media="all" rel="stylesheet" type="text/css" />
+<link href="/themes/a1/stylesheets/application.css?1380926424" media="all" rel="stylesheet" type="text/css" />
+
+<script src="/javascripts/jquery-1.8.3-ui-1.9.2-ujs-2.0.3.js?1379755856" type="text/javascript"></script>
+<script src="/javascripts/application.js?1379755856" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+$(window).load(function(){ warnLeavingUnsaved('The current page contains unsaved text that will be lost if you leave this page.'); });
+//]]>
+</script>
+<script src="/themes/a1/javascripts/theme.js?1355323826" type="text/javascript"></script>
+ 
+
+
+
+  <script src="/plugin_assets/redmine_wiki_extensions/javascripts/jquery.tablesorter.js?1379768050" type="text/javascript"></script>
+  <link href="/plugin_assets/redmine_wiki_extensions/stylesheets/wiki_extensions.css?1379768050" media="screen" rel="stylesheet" type="text/css" />
+  <link href="/plugin_assets/redmine_wiki_extensions/stylesheets/wiki_extensions_print.css?1379768050" media="print" rel="stylesheet" type="text/css" />
+  <script src="/plugin_assets/redmine_wiki_extensions/javascripts/wiki_extensions.js?1379768050" type="text/javascript"></script>
+ <link href="/plugin_assets/wiking/stylesheets/wiking.css?1379772439" media="screen" rel="stylesheet" type="text/css" />
+<!-- page specific tags -->
+    <script src="/plugin_assets/redmine_custom_macros/javascripts/custom_macros.js?1379967965" type="text/javascript"></script>
+</head>
+<body class="theme-A1 controller-wiki action-show">
+<div id="wrapper">
+<div id="wrapper2">
+<div id="wrapper3">
+<div id="top-menu">
+    <div id="account">
+        <ul><li><a href="/login" class="login">Sign in</a></li>
+<li><a href="/account/register" class="register">Register</a></li></ul>    </div>
+    
+    <ul><li><a href="/home" class="home">Home</a></li>
+<li><a href="/projects" class="projects">Projects</a></li>
+<li><a href="http://www.redmine.org/guide" class="help">Help</a></li></ul></div>
+
+<div id="header">
+    <div id="quick-search">
+        <form accept-charset="UTF-8" action="/projects/gmt/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+        <input name="wiki_pages" type="hidden" value="1" />
+        <label for='q'>
+          <a href="/projects/gmt/search" accesskey="4">Search</a>:
+        </label>
+        <input accesskey="f" class="small" id="q" name="q" size="20" type="text" />
+</form>        
+    </div>
+
+    <h1>GMT</h1>
+
+    <div id="main-menu">
+        <ul><li><a href="/projects/gmt" class="overview">Overview</a></li>
+<li><a href="/projects/gmt/activity" class="activity">Activity</a></li>
+<li><a href="/projects/gmt/roadmap" class="roadmap">Roadmap</a></li>
+<li><a href="/projects/gmt/issues" class="issues">Issues</a></li>
+<li><a href="/projects/gmt/news" class="news">News</a></li>
+<li><a href="/projects/gmt/wiki" class="wiki selected">Wiki</a></li>
+<li><a href="/projects/gmt/wiki_extensions/forward_wiki_page?menu_id=1" class="wiki-extensions1">Documentation</a></li>
+<li><a href="/projects/gmt/wiki_extensions/forward_wiki_page?menu_id=2" class="wiki-extensions2">Download</a></li>
+<li><a href="/projects/gmt/boards" class="boards">Forums</a></li>
+<li><a href="/projects/gmt/repository" class="repository">Repository</a></li></ul>
+    </div>
+</div>
+
+<div id="main" class="">
+    <div id="sidebar">
+            <a name="Latest-Releases"></a>
+<h3 >Latest Releases<a href="#Latest-Releases" class="wiki-anchor">&para;</a></h3>
+
+
+	<p><a href="/projects/gmt/wiki/Download" class="wiki-page">GMT-5.1.1</a> (2014-03-01)<br />&nbsp;↳<a href="/projects/gmt/wiki/Documentation" class="wiki-page">Documentation</a> (<a href="/doc/5.1.1/index.html">HTML</a>)<br /><a href="/gmt4/">GMT-4.5.12</a> (2014-03-01)<br />&nbsp;↳<a href="/gmt4/gmt/html/gmt_services.html">Documentation</a></p>
+
+
+	<a name="Resources"></a>
+<h3 >Resources<a href="#Resources" class="wiki-anchor">&para;</a></h3>
+
+
+	<p><a href="/projects/gmt/wiki/Installing" class="wiki-page">Installing instructions</a><br /><a href="/projects/gmt/wiki/BuildingGMT" class="wiki-page">Building instructions</a><br /><a href="/projects/gmt/wiki/MailLists" class="wiki-page">Mailing Lists</a><br /><a href="/projects/gmt/wiki/Tidbits" class="wiki-page">Tidbits</a><br /><a href="/projects/gmt/wiki/Podcast" class="wiki-page">Podcasts</a><br /><a href="/projects/gmt/wiki/References" class="wiki-page">References</a></p>
+
+<h3>Wiki</h3>
+
+<a href="/">Start page</a><br />
+<a href="/projects/gmt/wiki/index">Index by title</a><br />
+<a href="/projects/gmt/wiki/date_index">Index by date</a><br />
+
+
+        
+    </div>
+
+    <div id="content">
+        
+        <div class="contextual">
+  
+  
+  
+  
+  
+  
+
+</div>
+
+<p class="breadcrumb"><a href="/projects/gmt/wiki/Wiki">Wiki</a> » </p>
+
+
+<div class="wiki wiki-page">
+  <a name="Documentation"></a>
+<h1 >Documentation<a href="#Documentation" class="wiki-anchor">&para;</a></h1>
+
+
+	<a name="Interactive-Documentation-Manpages-CookBook-API-Examples"></a>
+<h2 >Interactive Documentation (Manpages, CookBook, API, Examples)<a href="#Interactive-Documentation-Manpages-CookBook-API-Examples" class="wiki-anchor">&para;</a></h2>
+
+
+	<ul>
+	<li><a href="/doc/latest/index.html">Latest</a></li>
+		<li><a href="/doc/5.1.1/index.html">5.1.1</a></li>
+		<li><a href="/doc/5.1.0/index.html">5.1.0</a></li>
+	</ul>
+
+
+	<p>All source tarballs and Windows/OSX installers contain documentation in HTML and PDF format for offline reading. There is also a dedicated <a href="/projects/gmt/wiki/Download" class="wiki-page">gmt-5.x.x-doc.tar.gz archive</a>.</p>
+
+
+	<a name="Installation"></a>
+<h2 >Installation<a href="#Installation" class="wiki-anchor">&para;</a></h2>
+
+
+	<ul>
+	<li><a href="/projects/gmt/wiki/Install" class="wiki-page">Installing instructions</a></li>
+		<li><a href="/projects/gmt/wiki/BuildingGMT" class="wiki-page">Building instructions</a></li>
+		<li><a href="/projects/gmt/wiki/PackagingGMT" class="wiki-page">Packaging recommendations</a></li>
+	</ul>
+
+
+	<a name="Filing-Bug-Reports-and-Feature-Requests"></a>
+<h2 >Filing Bug Reports and Feature Requests<a href="#Filing-Bug-Reports-and-Feature-Requests" class="wiki-anchor">&para;</a></h2>
+
+
+	<p>These are managed on site, via the <a href="/projects/gmt/issues">Issues</a> tracker, above. After registering (see upper right link) and logging in you can create new bug reports or feature requests in the <a href="/projects/gmt/issues/new">New issue</a> tab.  Please use this tracker instead of sending email reports as it helps us organize and keep track of the bug fixing process.</p>
+
+
+	<p></p>
+</div>
+
+
+
+
+
+
+
+
+        
+        <div style="clear:both;"></div>
+    </div>
+</div>
+</div>
+
+<div id="ajax-indicator" style="display:none;"><span>Loading...</span></div>
+<div id="ajax-modal" style="display:none;"></div>
+
+<div id="footer">
+  <div class="bgl"><div class="bgr">
+    Powered by <a href="http://www.redmine.org/">Redmine</a> &copy; 2006-2013 Jean-Philippe Lang
+  </div></div>
+</div>
+</div>
+</div>
+
+
+
+    <script type="text/javascript">
+
+
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+wiki_extension_create_table_header();
+//]]>
+</script>
+
+
+</body>
+</html>
